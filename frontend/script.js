@@ -60,7 +60,7 @@ async function deleteNote(id) {
 
 // EDIT NOTE
 function editNote(id, oldTitle, oldContent) {
-  const newTitle = prompt("Edit title:", oldTitle);
+  const newTitle = prompt("Edit title s:", oldTitle);
   const newContent = prompt("Edit content:", oldContent);
 
   if (newTitle && newContent) {
