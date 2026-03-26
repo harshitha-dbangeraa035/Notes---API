@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Notes App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>📝 Notes App</h1>
+
+    <!-- Add Note -->
+    <div class="form">
+      <input type="text" id="title" placeholder="Enter title">
+      <textarea id="content" placeholder="Enter content"></textarea>
+      <button onclick="addNote()">Add Note</button>
+    </div>
+
+    <!-- Notes List -->
+    <div id="notesContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
