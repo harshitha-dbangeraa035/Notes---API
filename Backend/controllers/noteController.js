@@ -34,7 +34,7 @@ exports.updateNote = async (req, res) => {
 exports.deleteNote = async (req, res) => {
   try {
     await Note.findByIdAndDelete(req.params.id);
-    res.json({ message: "Note deleted" });
+    res.json({ message: "Notes deleted" });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
